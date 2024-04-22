@@ -205,6 +205,13 @@ document.getElementById('ex7-list')
 /* --- Exercice 8 --- */
 
 
+/**
+ * Initialize a progress bar on a button.
+ * Sample code :
+ * <button data-progress-id="progress-id"></button>
+ * <div id="progress-id"></div>
+ * @param {element} buttonElement - Button element with a data-progress-id attribute associated to the progress bar element. 
+ */
 function initProgressBar(buttonElement) {
     let counter = 0;
     const progressBarId = buttonElement.dataset.progressId;
